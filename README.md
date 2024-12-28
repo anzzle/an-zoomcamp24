@@ -1,5 +1,5 @@
 # an-zoomcamp24
-
+#PG-db
 docker run -it \
     -e POSTGRES_USER="root" \
     -e POSTGRES_PASSWORD="root" \
@@ -10,7 +10,9 @@ docker run -it \
     --name pg-database \
     postgres:13
 
-    docker run -it \
+
+#PG admin
+docker run -it \
     -e PGADMIN_DEFAULT_EMAIL="admin@admin.com" \
     -e PGADMIN_DEFAULT_PASSWORD="root" \
     -p 8080:80 \
